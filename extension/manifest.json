@@ -1,0 +1,13 @@
+{
+  "name": "No click no bait",
+  "description": "Anti-clickbait extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "css": ["content-style.css"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
